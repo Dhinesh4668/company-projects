@@ -13,6 +13,7 @@
     --nav-hover-color: #ff5800;
     --n-color: white;
     --broder-color: rgb(196, 196, 196);
+    --persent-color: rgb(6, 32, 76);
 }
 .search_button {
     background-color: red !important;
@@ -77,6 +78,18 @@
     width: 10rem;
     height: auto;
 } */
+
+ul span{
+    color: var(--highlight-text-title);
+    font-family: 'Coustard', serif;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+ul .bannerhead{
+    color: var(--persent-color);
+    font-size: xx-large;
+}
 
 @media  screen and (width: 300px )  {
     .c-t{
