@@ -57,6 +57,19 @@
     color: var(--highlight-text-title);
 }
 
+.about{
+    font-family: 'Coustard', serif;
+    color: var(--highlight-text-title);
+   
+}
+.contact{
+    font-weight: 600;
+}
+.contact span {
+    color: var(--highlight-text-title);
+    font-family: 'Coustard', serif;
+    letter-spacing: 2px;
+}
 /* .l-img{
     height: 300px;
 } */
