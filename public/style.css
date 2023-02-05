@@ -90,6 +90,9 @@ ul .bannerhead{
     color: var(--persent-color);
     font-size: xx-large;
 }
+.u-link a{
+    text-decoration: none;
+}
 
 
 /* footer {
