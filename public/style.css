@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Coustard&display=swap');
 *{
     background-color: f6fff8;
-
+    scroll-behavior: smooth;
 }
 
 
@@ -89,6 +89,38 @@ ul span{
 ul .bannerhead{
     color: var(--persent-color);
     font-size: xx-large;
+}
+
+
+/* footer {
+    background-image: url(./assets/sourceimage/footer.jpg);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    color:#d7d5d5;
+    padding: 70px 0 0px;
+    
+} */
+
+.footer-bg{
+    background-color: rgb(252, 246, 245);
+}
+
+.backtotop{
+    
+    color: #000;
+}
+.backtotop a:hover{
+    transform: scale(2s);
+}
+
+.icons{
+    height: 70px;
+    width: 70px;
+    padding: 7px;
 }
 
 @media  screen and (width: 300px )  {
